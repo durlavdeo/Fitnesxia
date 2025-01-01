@@ -44,7 +44,9 @@ This project is my submission for the Frontend Developer Challenge. It showcases
 
 ## 🎯 Features Implemented
 - Clean and reusable component structure
-
+- 
+## 🖥️ **Live Demo**
+[View Live Demo](https://fitnesxia.netlify.app)
 
 ## 🤝 Contact
 If you encounter any issues or have questions, feel free to reach out:
