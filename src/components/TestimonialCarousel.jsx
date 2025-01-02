@@ -63,7 +63,7 @@ const TestimonialCarousel = () => {
       <div className="flex items-center gap-3">
         <img
           src={image}
-          alt={name}
+          alt={`Photo of ${name}, a satisfied member of our online fitness service`}
           className="w-16 h-16 rounded-full mx-auto mb-4 object-fit"
         />
         <div className="flex flex-col items-start">

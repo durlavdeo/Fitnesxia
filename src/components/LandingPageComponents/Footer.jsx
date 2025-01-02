@@ -5,10 +5,10 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import fb from "../../assets/fb.svg"
-import ig from "../../assets/ig.svg"
-import twitter from "../../assets/twitter.svg"
-import linkedin from "../../assets/linkedin.svg"
+import fb from "../../assets/fb.svg";
+import ig from "../../assets/ig.svg";
+import twitter from "../../assets/twitter.svg";
+import linkedin from "../../assets/linkedin.svg";
 
 const Footer = () => {
   return (
@@ -127,25 +127,25 @@ const Footer = () => {
       <div className="w-full border mt-10 border-secondary-100"></div>
       <div className="mt-4 flex justify-between items-center">
         <div className="flex gap-2 items-center">
-          <img src={"/logo.svg"} alt="" width={60} />
+          <img src={"/logo.svg"} alt="fitnesxia-logo" width={60} />
           <h3 className="text-xl font-semibold">FITNESXIA</h3>
         </div>
         <p className="text-sm text-gray-400">
-            &copy;2023 DurlavDeo. All Copyrights reserved.
+          &copy;2023 DurlavDeo. All Copyrights reserved.
         </p>
         <div className="flex gap-3 items-center">
-            <span className="bg-gray-300 rounded-full text-primary-100 h-8 w-8 flex justify-center items-center cursor-pointer shadow-md hover:bg-gray-200 transition-all duration-200">
-              <img src={fb} alt="" width={10} />
-            </span>
-            <span className="bg-gray-300 rounded-full text-primary-100 h-8 w-8 flex justify-center items-center cursor-pointer shadow-md hover:bg-gray-200 transition-all duration-200">
-              <img src={ig} alt="" width={14} />
-            </span>
-            <span className="bg-gray-300 rounded-full text-primary-100 h-8 w-8 flex justify-center items-center cursor-pointer shadow-md hover:bg-gray-200 transition-all duration-200">
-              <img src={twitter} alt="" width={14} />
-            </span>
-            <span className="bg-gray-300 rounded-full text-primary-100 h-8 w-8 flex justify-center items-center cursor-pointer shadow-md hover:bg-gray-200 transition-all duration-200">
-              <img src={linkedin} alt="" width={14} />
-            </span>
+          <span className="bg-gray-300 rounded-full text-primary-100 h-8 w-8 flex justify-center items-center cursor-pointer shadow-md hover:bg-gray-200 transition-all duration-200">
+            <img src={fb} alt="facebook" width={10} />
+          </span>
+          <span className="bg-gray-300 rounded-full text-primary-100 h-8 w-8 flex justify-center items-center cursor-pointer shadow-md hover:bg-gray-200 transition-all duration-200">
+            <img src={ig} alt="instagram" width={14} />
+          </span>
+          <span className="bg-gray-300 rounded-full text-primary-100 h-8 w-8 flex justify-center items-center cursor-pointer shadow-md hover:bg-gray-200 transition-all duration-200">
+            <img src={twitter} alt="twitter" width={14} />
+          </span>
+          <span className="bg-gray-300 rounded-full text-primary-100 h-8 w-8 flex justify-center items-center cursor-pointer shadow-md hover:bg-gray-200 transition-all duration-200">
+            <img src={linkedin} alt="linkedin" width={14} />
+          </span>
         </div>
       </div>
     </footer>
@@ -153,5 +153,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
