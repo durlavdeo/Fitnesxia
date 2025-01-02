@@ -3,29 +3,12 @@ import SectionLayout from "../../layouts/SectionLayout";
 import CustomButton from "../shared/CustomButton";
 import StatCard from "../shared/StatCard";
 import deadLift from "../../assets/deadlift.png";
-import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
-    <SectionLayout
-      id={"about"}
-      className={"bg-primary-200 flex items-center gap-48 py-20"}
-    >
-      <Helmet>
-        <title>
-          About Us: Your Trusted Partner for Online Fitness Coaching
-        </title>
-        <meta
-          name="description"
-          content="At FITNESXIA, we provide personalized fitness coaching, expert fitness trainers, and flexible online fitness services. Learn how our fitness programs help you get fit from home, anytime, anywhere!"
-        />
-      </Helmet>
+    <SectionLayout id={"about"} className={"bg-primary-200 flex items-center gap-48 py-20"}>
       <div className={`w-[450px] h-[350px] rounded-lg shadow-md relative`}>
-        <img
-          src={about}
-          alt="Person lifting a barbell during a strength training session"
-          className="w-[450px] h-[350px] rounded-lg"
-        />
+        <img src={about} alt="Person lifting a barbell during a strength training session" className="w-[450px] h-[350px] rounded-lg" />
         <div className="absolute top-[70%] -right-20">
           <StatCard imgSrc={deadLift} extraText={"Professional Trainer"} />
         </div>

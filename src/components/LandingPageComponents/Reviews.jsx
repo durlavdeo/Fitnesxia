@@ -5,7 +5,6 @@ import t2 from "../../assets/t2.jpg";
 import t3 from "../../assets/t3.jpg";
 import t4 from "../../assets/t4.jpg";
 import curvedArrow from "../../assets/Image.png";
-import { Helmet } from "react-helmet";
 
 const imgs = [t1, t2, t3, t4];
 
@@ -17,15 +16,6 @@ const Reviews = () => {
         "bg-primary-200 text-white flex justify-between items-center pt-20 pb-32"
       }
     >
-      <Helmet>
-        <title>
-          Client Success Stories: Real Results with Our Fitness Programs
-        </title>
-        <meta
-          name="description"
-          content="Hear from our clients about how FITNESXIA's online fitness coaching, personalized fitness plans, and home workout programs transformed their fitness journey. Real results, real stories!"
-        />
-      </Helmet>
       <div className="w-[450px] flex flex-col gap-8 relative">
         <h1 className="capitalize text-4xl font-bold">
           what our happy clients say about us

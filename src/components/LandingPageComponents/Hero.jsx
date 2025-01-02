@@ -3,23 +3,10 @@ import play from "../../assets/play.svg";
 import AnimatedNumber from "../shared/AnimatedNumber";
 import heroImg from "../../assets/heroImg.png";
 import SectionLayout from "../../layouts/SectionLayout";
-import { Helmet } from "react-helmet";
 
 const Hero = () => {
   return (
-    <SectionLayout
-      id={"home"}
-      className="flex bg-primary-300 text-white pt-4 pb-0 pr-10 gap-32 overflow-hidden"
-    >
-      <Helmet>
-        <title>
-          Personalized Fitness Programs & Online Coaching for All Levels
-        </title>
-        <meta
-          name="description"
-          content="Join FITNESXIA for personalized fitness programs, online fitness coaching, and home workouts. Get expert fitness training and tailored workout plans for all levels. Start your fitness journey with flexible, online fitness services!"
-        />
-      </Helmet>
+    <SectionLayout id={"home"} className="flex bg-primary-300 text-white pt-4 pb-0 pr-10 gap-32 overflow-hidden">
       <div className="flex flex-col gap-8 w-[800px] mt-28">
         <h1 className="text-[50px] font-bold">
           GET HEALTHY BODY WITH THE PERFECT EXERCISES
@@ -56,11 +43,7 @@ const Hero = () => {
       </div>
       <div>
         <div className={`relative`}>
-          <img
-            src={heroImg}
-            alt="Two fitness enthusiasts standing back-to-back"
-            className="scale-110"
-          />
+          <img src={heroImg} alt="Two fitness enthusiasts standing back-to-back" className="scale-110" />
           <div className="w-fit bg-white shadow-md absolute bottom-44 left-32 rounded-md flex gap-6 px-4 py-3">
             <div>
               <p className="text-gray-900 text-sm">Today&apos;s Calories</p>

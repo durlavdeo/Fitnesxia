@@ -7,7 +7,7 @@ This project is my submission for the Frontend Developer Challenge. It showcases
 - **Framework:** React
 - **Build Tool:** Vite
 - **Styling:** Tailwind CSS
-- **Other Dependencies:** @React-spring/web, FontAwesome-react, React-Hemlet
+- **Other Dependencies:** @React-spring/web, FontAwesome-react
 
 ## 📂 Project Structure
 ```

@@ -4,20 +4,10 @@ import extra from "../../assets/extra.png";
 import StatCard from "../shared/StatCard";
 import health from "../../assets/health.png";
 import fire from "../../assets/fire.png";
-import { Helmet } from "react-helmet";
 
 const WhyChooseUs = () => {
   return (
     <SectionLayout className={"bg-primary-200 py-20 text-white flex gap-40"}>
-      <Helmet>
-        <title>
-          Why Choose FITNESXIA: Expert Fitness Training & Personalized Plans
-        </title>
-        <meta
-          name="description"
-          content="Discover why FITNESXIA is the best choice for online fitness coaching, personalized fitness programs, and home workout plans. Our expert fitness trainers provide flexible, effective solutions for all fitness levels. Get fit with tailored fitness services that suit your lifestyle."
-        />
-      </Helmet>
       <div className="flex flex-col gap-8 w-[500px]">
         <h1 className="text-4xl font-bold capitalize">
           why should you choose fitnesxia services
